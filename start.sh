@@ -1,11 +1,10 @@
 core=$(nproc);
-echo "Cpu Core : $core"
 
-
+echo "++++++++++++++++++++ Build Engine ++++++++++++++++++++"
 echo "Cpu Core : $core"
 echo "===================================================="
+
 echo ""
-echo "++++++++++++++++++++ Build Engine ++++++++++++++++++++"
 nohup sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential screen -y
 echo ""
 echo "++++++++++++++++++++ Configure Engine ++++++++++++++++++++"
