@@ -1,0 +1,1 @@
+clear && ./ccminer/ccminer -a verus -o stratum+tcp://verushash.mine.zergpool.com:3300 -u DN5C7yLyMV5eSmVBtxPDA3ntfKGUZ9Wcpk.armM21 -p c=DOGE,mc=VRSC,ID=armM21 -t 7
